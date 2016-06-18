@@ -1,1 +1,1 @@
-# dotastats
+# dota-stats
