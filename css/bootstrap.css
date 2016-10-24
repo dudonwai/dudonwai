@@ -10,7 +10,7 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  padding: 0px;
+  margin: 0;
 }
 article,
 aside,
@@ -1451,7 +1451,7 @@ dt {
 dd {
   margin-left: 0;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -4174,7 +4174,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-radius: 4px;
   }
 }
-/*Changed from 768 to 992px*/
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
@@ -4192,7 +4191,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-/*Changed from 768 to 992px*/
 @media (min-width: 768px) {
   .navbar-collapse {
     width: auto;
@@ -4317,7 +4315,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-/*Changed from 768 to 992px*/
 @media (min-width: 768px) {
   .navbar-toggle {
     display: none;
@@ -4331,8 +4328,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 20px;
 }
-/*Changed from 767 to 992px*/
-@media (max-width: 992px) {
+@media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
