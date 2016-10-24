@@ -1451,7 +1451,7 @@ dt {
 dd {
   margin-left: 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -4174,7 +4174,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-radius: 4px;
   }
 }
-@media (min-width: 768px) {
+/*Changed from 768 to 992px*/
+@media (min-width: 992px) {
   .navbar-header {
     float: left;
   }
@@ -4191,7 +4192,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+/*Changed from 768 to 992px*/
+@media (min-width: 992px) {
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -4315,7 +4317,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-@media (min-width: 768px) {
+/*Changed from 768 to 992px*/
+@media (min-width: 992px) {
   .navbar-toggle {
     display: none;
   }
