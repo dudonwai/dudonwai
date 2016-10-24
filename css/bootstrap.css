@@ -4175,7 +4175,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 /*Changed from 768 to 992px*/
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .navbar-header {
     float: left;
   }
@@ -4193,7 +4193,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   overflow-y: auto;
 }
 /*Changed from 768 to 992px*/
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -4318,7 +4318,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-top: 4px;
 }
 /*Changed from 768 to 992px*/
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .navbar-toggle {
     display: none;
   }
