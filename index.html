@@ -63,23 +63,44 @@
                 <a href="#top" onclick=$("#menu-close").click();><strong>Home</strong></a>
             </li>
             <li>
-                <a href="#about" onclick=$("#menu-close").click();><strong>About</strong></a>
+                <ul>
+                    <li>
+                        <a href="#about" onclick=$("#menu-close").click();><strong>About</strong></a>
+                    </li>
+                    <li>
+                        <a href="#projects" onclick=$("#menu-close").click();><strong>Projects</strong></a>
+                    </li>
+                </ul>
+            <li>
+                <a href="learn.html" onclick=$("#menu-close").click();><strong>Learn</strong></a>
             </li>
             <li>
-                <a href="#projects" onclick=$("#menu-close").click();><strong>Projects</strong></a>
+                <a href="write.html" onclick=$("#menu-close").click();><strong>Write</strong></a>
             </li>
             <li>
-                <a href="#blog" onclick=$("#menu-close").click();><strong>Blog</strong></a>
-            </li>
+                <a href="launch.html" onclick=$("#menu-close").click();><strong>Launch</strong></a>
+            </li>            
         </ul>
     </nav>
+
 
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Hi, I'm Dudon</h1>
+            <div class="col-xs-12">
+                <h2><b>Hi, I'm Dudon</b></h2>
+            </div>                
+            <div class="col-xs-12">
+                <img 
+                class="img-circle"
+                src="img/dudon-wai.jpg"
+                height="150" 
+                width="150">
+            </div>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Check Out My Story</a>
+            <div class="col-xs-12">
+                <h2><a href="#about" class="btn btn-dark btn-lg">Check Out My Story</a></h2>
+            </div>
         </div>
     </header>
 
@@ -87,18 +108,86 @@
     <section id="about" class="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Engineer ~ Programmer ~ Marketer</h2>
+                <div class="col-sm-12 text-center">
+                    <h2>I Love People &amp; Products</h2>
                     <hr class="small">
-                    <span><img 
-                        class="img-circle"
-                        src="img/dudon-wai.jpg"
-                        height="250" 
-                        width="250">
-                        </span>
-                    <h2 class="centered mb">About Dudon</h2>
+                </div>
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <div class="col-sm-4 col-sm-offset-2 text-center">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-cogs fa-stack-1x" style="color:white"></i>
+                        </span>                        
+                        <p>I built <b class="text-primary">physical products</b> for 5 years as an engineer, and worked with incredible people in automotive, plastics, steel and petroleum.</p>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-laptop fa-stack-1x" style="color:white"></i>
+                        </span>                          
+                        <p>I built <b class="text-primary">software products</b> in the last 3 years, designing websites, developing marketplaces and deploying prediction models.</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="small">
+            <br>
+
+
+            <div class="row">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <div class="col-sm-4 text-center">
+                        <div class="col-sm-12">        
+                            <p><img src="img/magna.JPG" alt="Magna" width="100%"></p>
+                        </div>
+                        <p>I've <b class="text-primary">built cars</b> at Magna</p>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <div class="col-sm-12">        
+                            <p><img src="img/shell.JPG" alt="Shell" width="100%"></p>
+                        </div>
+                        <p>I've <b class="text-primary">drilled oil wells</b> at Shell</p>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <div class="col-sm-12">        
+                            <p><img src="img/next-ai-venture-day.JPG" alt="NextAI" width="100%"></p>
+                        </div>
+                        <p>Now I <b class="text-primary">build software</b> startups</p>
+                    </div>                                                              
+                </div>
+            </div>
+            <!-- /.row -->
+
+            <!-- Carousel -->
+<!--             <div class="row">
+                <div class="col-sm-10 text-center col-sm-offset-1">
+                    <div class="col-sm-4 text-center service-item">                          
+                        <a href="http://www.nextcanada.com/next-ai">
+                            <img src="img/logos/next-ai-canada-blue.jpg" alt="Next AI Canada Blue" height="75">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 text-center service-item">
+                        <a href="https://www.nvidia.com/en-us/deep-learning-ai/startups/">
+                            <img src="img/logos/nvidia-inception-green.jpg" alt="NVIDIA Inception Green" height="75">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 text-center service-item">
+                        <a href="https://www.creativedestructionlab.com/locations/calgary/">
+                            <img src="img/logos/creative-destruction-lab-cdl.jpg" alt="Creative Destruction Lab - Rockies" height="75">
+                        </a>
+                    </div>                        
+                </div>
+            </div> -->
+            <!-- /.row -->
+
+                        
+            <br>
+            <div class="row">
+                <div class="col-lg-12 text-center">
                     <div class="col-md-6 col-md-offset-3">
-                        <p><b>Dudon Wai</b> is now working on a project called <a href="http://www.unsist.com" target="_blank"><b><u>Unsist</b></u></a>. He studied engineering at the University of Waterloo and proceeded to move and work in the oil &amp; gas industry. Passionate about solving complex problems, Dudon executed on <b>$100M+</b> in projects over two years. After an unlikely reunion with a friend, Dudon jumped into web development and started <b>GreyADV</b> in late 2015. In his free time, Dudon seeks new food experiences and enjoys dance music. He also supports local Calgary startups and loves meeting like-minded people. Grateful for an amazing community, Dudon makes sure to share what he has learned and pay it forward to other aspiring entrepreneurs.</p>
                         <a href="docs/dudon-wai-resume-jul18.pdf?pdf=resume" target="_blank" class="btn btn-primary">View Resume</a>
                     </div>
                 </div>
@@ -107,85 +196,60 @@
 
         </div>
         <!-- /.container -->
+
     </section>
 
-    <!-- Projects -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+
+
     <section id="projects" class="services bg-primary">
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2">
                     <h2>Projects</h2>
                     <hr class="small">
+                    <div class="col-md-6 col-md-offset-3">
+                        <p>I'm a constant learner, and I give back through writing and launching.</p>
+                    </div>                    
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-sm-4">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-rocket fa-stack-1x text-primary"></i>
-                            </span>
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-book fa-stack-1x text-primary"></i>
+                                </span>
                                 <h4>
-                                    <strong>Unsist Data Science</strong>
+                                    <strong>Learn</strong>
                                 </h4>
-                                <p>Creating technology for the oil &amp; gas industry that <u>never stops</u>.</p>
-                                <a href="http://www.unsist.com" target="_blank" class="btn btn-light">Learn More</a>
+                                <p>I love startups, AI/ML, building products and marketing.</p>
+                                <a href="learn.html" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-4">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-outdent fa-stack-1x text-primary"></i>
+                                </span>
                                 <h4>
-                                    <strong>GreyADV</strong>
+                                    <strong>Write</strong>
                                 </h4>
-                                <p>A web development agency that turned to education to teach new startups how to MVP.</p>
-                                <a href="http://www.greyadv.com/" target="_blank" class="btn btn-light">Learn More</a>
+                                <p>A blog on startups, product and personal growth</p>
+                                <a href="write.html" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-sm-4">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-rocket fa-stack-1x text-primary"></i>
+                                </span>
                                 <h4>
-                                    <strong>Marketing Firm</strong>
+                                    <strong>Launch</strong>
                                 </h4>
-                                <p>Supporting local SMBs with online advertising primarily on Google &amp; Facebook.</p>
-                                <a href="marketing/google-adwords-exam-help" class="btn btn-light">Learn More</a>
+                                <p>I've launched a few projects and I'm working on more.</p>
+                                <a href="launch.html" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Artificial Intelligence</strong>
-                                </h4>
-                                <p>Program or be programmed. My journey at Georgia Tech to become a programmer in AI.</p>
-                                <a href="ai/artificial-intelligence" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        
-<!--                         <div class="col-md-4 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Dota Stats</strong>
-                                </h4>
-                                <p>A little project to leverage gaming statistical data and present insights and rich visuals.</p>
-                                <a href="404" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div> -->
                         
                     </div>
                     <!-- /.row (nested) -->
@@ -197,373 +261,9 @@
         <!-- /.container -->
     </section>
 
-    <!-- About -->
-    <section id="blog" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Dudon's Blog</h2>
-                    <h4>On Startups, Product and Personal Growth</h4>
-                    <hr class="small">
-                </div>
-            </div>
-
-            <!-- Blog Post Row -->
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="col-sm-2 text-center">
-                        <br>
-                        <p><i class="fa fa-forward fa-3x"></i>
-                        </p>
-                        <p>July 31, 2018</p>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <br>
-                        <a href="/blog/2018/the-journey-continues">
-                            <img class="img-portfolio img-responsive" src="img/unsist-nextai-pitch.JPG" alt="Unsist NextAI Pitch">
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <h4>
-                            <a href="/blog/2018/the-journey-continues">The Journey Continues</a>
-                        </h4>
-                        <p>via <a href="https://medium.com/@dudonwai/">@dudonwai</a>
-                        </p>
-                        <p>Last June marked 16 months since I started Unsist with my co-founder Roi, and also marks the conclusion and winding down of our incredible journey. Make no mistake, we were successful in...</p>
-                        <a class="btn btn-primary" href="/blog/2018/the-journey-continues">Read More <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <!-- /.row -->
-
-            <!-- Blog Post Row -->
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="col-sm-2 text-center">
-                        <br>
-                        <p><i class="fa fa-microphone fa-3x"></i>
-                        </p>
-                        <p>February 2, 2018</p>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <br>
-                        <a href="/blog/2018/founders-beta-interview">
-                            <img class="img-portfolio img-responsive" src="img/founders-beta-interview.jpg" alt="Founders Beta Interview">
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <h4>
-                            <a href="/blog/2018/founders-beta-interview">Founders Beta Interview</a>
-                        </h4>
-                        <p>via <a href="https://www.foundersbeta.com/interview/founder-spotlight-dudon-wai/">@FoundersBeta</a>
-                        </p>
-                        <p>Dudon Wai is one of the founders of Unsist, a data-science startup for the Oil &amp; Gas industry.  In 2014, Dudon graduated from engineering at the University of Waterloo. Dudon had the opportunity to work at...</p>
-                        <a class="btn btn-primary" href="/blog/2018/founders-beta-interview">Read More <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <!-- /.row -->
-
-            <!-- Blog Post Row -->
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="col-sm-2 text-center">
-                        <br>
-                        <p><i class="fa fa-list-ol fa-3x"></i>
-                        </p>
-                        <p>January 7, 2018</p>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <br>
-                        <a href="/blog/2018/learn-earn-return">
-                            <img class="img-portfolio img-responsive" src="img/learn-earn-return.jpeg" alt="Learn Earn Return">
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <h4>
-                            <a href="/blog/2018/learn-earn-return">Learn, Earn &amp; Return</a>
-                        </h4>
-                        <p>via <a href="https://medium.com/@dudonwai/learn-earn-return-eedfa37d294f">@dudonwai</a>
-                        </p>
-                        <p>Happy new year, everyone! The period between Christmas and New Year’s is one of my favourites. Every year, that’s when I catch up on self-care and the neglected parts of my life: myself, my friends, and my family...</p>
-                        <a class="btn btn-primary" href="/blog/2018/learn-earn-return">Read More <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <!-- /.row -->
-
-            <!-- Blog Post Row -->
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="col-sm-2 text-center">
-                        <br>
-                        <p><i class="fa fa-quote-left fa-3x"></i>
-                        </p>
-                        <p>August 16, 2017</p>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <br>
-                        <a href="https://medium.com/next-canada/nextfounderchats-dudon-wai-7eba3fbb658f">
-                            <img class="img-portfolio img-responsive" src="img/next-canada-venture-preview-dudon-wai.jpeg" alt="#NEXTFounderChats: Dudon Wai">
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <h4>
-                            <a href="https://medium.com/next-canada/nextfounderchats-dudon-wai-7eba3fbb658f">#NEXTFounderChats: Dudon Wai</a>
-                        </h4>
-                        <p>via <a href="https://medium.com/@NEXTCanada">@NEXTCanada</a>
-                        </p>
-                        <p>I joined Shell as an engineer during the boom in 2013. It was a period of fast-paced growth where we made decisions based on speed and not necessarily what was best. But then in 2014, the oil price tanked...</p>
-                        <a class="btn btn-primary" href="https://medium.com/next-canada/nextfounderchats-dudon-wai-7eba3fbb658f">Read More <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <!-- /.row -->
-
-            <!-- Blog Post Row -->
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="col-sm-2 text-center">
-                        <br>
-                        <p><i class="fa fa-plane fa-3x"></i>
-                        </p>
-                        <p>May 4, 2017</p>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <br>
-                        <a href="/blog/2017/there-and-back-again-again">
-                            <img class="img-portfolio img-responsive" src="img/there-and-back-again-again.jpg" alt="There And Back Again - Again?">
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <h4>
-                            <a href="/blog/2017/there-and-back-again-again">There And Back Again - Again?</a>
-                        </h4>
-                        <p>via <a href="http://bit.ly/2qBl1GE">@dudonwai</a>
-                        </p>
-                        <p>I’m writing because I’ve been relatively MIA (missing in action) since I announced I left Shell in February and I want to take this opportunity to give an update on the adventure. I should also mention that I still...</p>
-                        <a class="btn btn-primary" href="/blog/2017/there-and-back-again-again">Read More <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <!-- /.row -->
-
-            <!-- Blog Post Row -->
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="col-sm-2 text-center">
-                        <br>
-                        <p><i class="fa fa-gift fa-3x"></i>
-                        </p>
-                        <p>Mar 5, 2017</p>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <br>
-                        <a href="/blog/2017/the-sacrifices-of-entrepreneurship">
-                            <img class="img-portfolio img-responsive" src="img/the-sacrifices-of-entrepreneurship.jpeg" alt="The Sacrifices of Entrepreneurship">
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <h4>
-                            <a href="/blog/2017/the-sacrifices-of-entrepreneurship">The Sacrifices of Entrepreneurship</a>
-                        </h4>
-                        <p>via <a href="https://medium.com/@dudonwai/the-sacrifices-of-entrepreneurship-b9a98cc9e22c">@dudonwai</a>
-                        </p>
-                        <p>Very rarely have I ever said anything worth quoting, but the quote above comes from a candid conversation I had today with a friend about my recent career change. Most conversations I’ve had recently touch on the topic of...</p>
-                        <a class="btn btn-primary" href="/blog/2017/the-sacrifices-of-entrepreneurship">Read More <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <!-- /.row -->
-
-            <!-- Blog Post Row -->
-             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="col-sm-2 text-center">
-                        <br>
-                        <p><i class="fa fa-heart fa-3x"></i>
-                        </p>
-                        <p>Feb 2, 2017</p>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <br>
-                        <a href="/blog/2017/there-and-back-again">
-                            <img class="img-portfolio img-responsive" src="img/there-and-back-again.jpeg" alt="There and Back Again">
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <h4>
-                            <a href="/blog/2017/there-and-back-again">There And Back Again</a>
-                        </h4>
-                        <p>via <a href="https://medium.com/@dudonwai/there-and-back-again-c339e39bd762">@dudonwai</a>
-                        </p>
-                        <p>It’s official! I’m moving on from Shell to return to Toronto to begin a new chapter of my career and my life. It’s surreal to have grown up in Toronto, moved away for good (or, so I thought at the time), and to come back full-circle to Toronto...</p>
-                        <a class="btn btn-primary" href="/blog/2017/there-and-back-again">Read More <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <hr> 
-            <!-- /.row -->
-
-            <!-- Blog Post Row -->
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="col-sm-2 text-center">
-                        <br>
-                        <p><i class="fa fa-flask fa-3x"></i>
-                        </p>
-                        <p>July 16, 2016</p>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <br>
-                        <a href="/blog/2016/why-i-experiment-every-day">
-                            <img class="img-portfolio img-responsive" src="img/why-i-experiment-every-day.jpeg" alt="Why I Experiment Everyday">
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <h4>
-                            <a href="/blog/2016/why-i-experiment-every-day">Why I Experiment Every Day</a>
-                        </h4>
-                        <p>via <a href="https://blog.greyadv.com/why-i-experiment-every-day-1f07e33cb872#.97bp39k5e">@dudonwai</a>
-                        </p>
-                        <p>Every day, I try to find at least three experiments I can do. Will a cold shower in the morning wake me up more than a warm one? Do I eat more in a day if I have a big breakfast or a small one? Do I focus at work better with music or without?</p>
-                        <a class="btn btn-primary" href="/blog/2016/why-i-experiment-every-day">Read More <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <!-- /.row -->
-
-            <!-- Blog Post Row -->
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="col-sm-2 text-center">
-                        <br>
-                        <p><i class="fa fa-edit fa-3x"></i>
-                        </p>
-                        <p>June 15, 2016</p>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <br>
-                        <a href="/blog/2016/meta-blog-1">
-                            <img class="img-portfolio img-responsive" src="img/meta-blog-1.jpg" alt="Meta Blog">
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <h4>
-                            <a href="/blog/2016/meta-blog-1">Meta Blog #1</a>
-                        </h4>
-                        <p>via <a href="https://medium.com/@dudonwai/meta-blog-1-58adaa94ed2e">@dudonwai</a>
-                        </p>
-                        <p>Yes, this blog is going to be about blogging. I’ve never liked the idea of meta-blogging, as it feels uncreative. But I need to do this for me. And yes, it’s #1 because there may be a #2. I promise I won’t meta-blog often, but it’s as much for me, as it is for the reader as well.</p>
-                        <a class="btn btn-primary" href="/blog/2016/meta-blog-1">Read More <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <!-- /.row -->
-
-            <!-- Blog Post Row -->
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="col-sm-2 text-center">
-                        <br>
-                        <p><i class="fa fa-paper-plane-o fa-3x"></i>
-                        </p>
-                        <p>February 7, 2016</p>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <br>
-                        <a href="/blog/2016/i-am-a-procrastinator">
-                            <img class="img-portfolio img-responsive" src="img/i-am-a-procrastinator.jpg" alt="I Am A Procrastinator">
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <h4>
-                            <a href="/blog/2016/i-am-a-procrastinator">I Am A Procrastinator</a>
-                        </h4>
-                        <p>via <a href="https://medium.com/@dudonwai/i-am-a-procrastinator-b0bb50a06ae8">@dudonwai</a>
-                        </p>
-                        <p>I’m a procrastinator, but I’m not lazy. Procrastination is the delay of doing something you should be doing. Laziness is lacking the effort to do something you have the ability to do. If you’re like me, you have a million things you want to do, but you don’t do most of them...</p>
-                        <a class="btn btn-primary" href="/blog/2016/i-am-a-procrastinator">Read More <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <!-- /.row -->
-
-            <!-- Blog Post Row -->
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="col-sm-2 text-center">
-                        <br>
-                        <p><i class="fa fa-line-chart fa-3x"></i>
-                        </p>
-                        <p>January 21, 2016</p>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <br>
-                        <a href="/blog/2016/no-marketing-budget">
-                            <img class="img-portfolio img-responsive" src="img/no-marketing-budget.jpg" alt="No Marketing Budget">
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <h4>
-                            <a href="/blog/2016/no-marketing-budget">No Marketing Budget</a>
-                        </h4>
-                        <p>via <a href="https://blog.greyadv.com/no-marketing-budget-a6721010fb11">@dudonwai</a>
-                        </p>
-                        <p>It’s the start of 2016, and by now you have an idea of how much you can spend this year on attracting new customers and growing your business. In this brief post, I’ll discuss a few options you have for growing your business, at little to no cost!</p>
-                        <a class="btn btn-primary" href="/blog/2016/no-marketing-budget">Read More <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <!-- /.row -->
-
-            <!-- Blog Post Row -->
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="col-sm-2 text-center">
-                        <br>
-                        <p><i class="fa fa-desktop fa-3x"></i>
-                        </p>
-                        <p>January 9, 2016</p>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <br>
-                        <a href="/blog/2016/8-reasons-you-need-a-website">
-                            <img class="img-portfolio img-responsive" src="img/8-reasons-you-need-a-website.jpg" alt="8 Reasons You Need A Website">
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <h4>
-                            <a href="/blog/2016/8-reasons-you-need-a-website">8 Reasons You Need A Website</a>
-                        </h4>
-                        <p>via <a href="https://medium.com/@dudonwai/meta-blog-1-58adaa94ed2e#">@dudonwai</a>
-                        </p>
-                        <p>It’s easy to think that you DON’T NEED a website, or that your website is GOOD ENOUGH. No matter what size your business is, your website is your greatest tool for growing your business. Here’s 8 reasons your website needs to be GREAT.</p>
-                        <a class="btn btn-primary" href="/blog/2016/8-reasons-you-need-a-website">Read More <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!-- /.row -->
-
-        </div>
-
-        <!-- /.container -->
-    </section>
-
     <!-- Footer -->
     <footer>
         <div class="container">
-            <hr class="large">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <ul class="list-inline">
